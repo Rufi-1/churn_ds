@@ -202,12 +202,7 @@ churn_ds/
   docs/     SETUP.md  WALKTHROUGH.md  DEPLOYMENT.md  screenshots/
 ```
 
-## 17. Screenshots
-Add PNGs to `docs/screenshots/` after running the dashboard and reference them here, e.g.
-`![Executive summary](docs/screenshots/executive_summary.png)`. Generated charts you can also use are in `outputs/figures/`
-(`eval_roc_curve.png`, `explain_group_importance.png`, `eda_18_multivariate_heatmaps.png`).
-
-## 18. Limitations and future improvements
+## 17. Limitations and future improvements
 * One snapshot of 7,043 customers; no usage, complaints, or time series. Revenue = monthly charges (no margin / CLV).
 * Save rate and offer cost are assumptions; validate with randomised retention experiments (uplift modelling would target
   customers who respond to offers, not just those likely to churn).

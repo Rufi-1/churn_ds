@@ -1,0 +1,154 @@
+{
+  "run_id": "20261011-085812",
+  "model": "Gradient Boosting",
+  "params": {
+    "subsample": 0.8,
+    "n_estimators": 300,
+    "min_samples_leaf": 20,
+    "max_depth": 2,
+    "learning_rate": 0.03
+  },
+  "trained_at": "2026-10-11T08:58:12",
+  "dataset_version": "16320c9c1ec7",
+  "selected": false,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8499470157678019,
+    "cv_pr_auc": 0.6684812075971646,
+    "cv_f1": 0.5862575334215048,
+    "cv_recall": 0.5230769230769231,
+    "cv_precision": 0.6680403894999535,
+    "cv_roc_auc_std": 0.012301490084035922,
+    "cv_pr_auc_std": 0.020393752313724575,
+    "cv_f1_std": 0.03288304875447623,
+    "cv_recall_std": 0.03769632857151936,
+    "cv_precision_std": 0.034143470690453814
+  },
+  "test_metrics": null,
+  "feature_importance": [
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.21916203361248396,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "cont__tenure",
+      "importance": 0.16787377522185737,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.1293251175360159,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.08885068858270746,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "cat__Contract_Month-to-month",
+      "importance": 0.07800109803596998,
+      "label": "Contract type: Month-to-month"
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.06465515252693342,
+      "label": "Internet service type: Fiber optic"
+    },
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.04059293889779696,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.03816870810449841,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.03462326538985743,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "cont__TotalCharges",
+      "importance": 0.026010335798859786,
+      "label": "Total charges"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.024368048519322116,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.020015554722446257,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "cont__charge_delta",
+      "importance": 0.011248894430088245,
+      "label": "Current bill vs. historical average"
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.011031591968189739,
+      "label": "Online backup: No"
+    },
+    {
+      "feature": "cat__MultipleLines_No",
+      "importance": 0.010956151246896341,
+      "label": "Multiple lines: No"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet+Streaming",
+      "importance": 0.005766999923045161,
+      "label": "Service profile: Phone+Internet+Streaming"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.005556837338663651,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.00333357445769545,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Streaming",
+      "importance": 0.003221997012898802,
+      "label": "Service profile: Internet+Streaming"
+    },
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.0022519325326914087,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "cat__SeniorCitizen_No",
+      "importance": 0.001986627333162352,
+      "label": "Senior citizen: No"
+    },
+    {
+      "feature": "disc__total_services",
+      "importance": 0.0013585462534899686,
+      "label": "Number of services"
+    },
+    {
+      "feature": "cat__Dependents_No",
+      "importance": 0.0013504956168619898,
+      "label": "Has dependents: No"
+    },
+    {
+      "feature": "cat__SeniorCitizen_Yes",
+      "importance": 0.0012493703655548812,
+      "label": "Senior citizen: Yes"
+    },
+    {
+      "feature": "cat__TechSupport_Yes",
+      "importance": 0.0011970615647090542,
+      "label": "Tech support: Yes"
+    }
+  ]
+}

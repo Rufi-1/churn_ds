@@ -1,0 +1,10 @@
+driver,columns,importance_mean,importance_std,baseline_auc,mean_abs_effect_pp
+Tenure / customer age,"tenure, tenure_group, TotalCharges, avg_monthly_spend",0.09623863636363633,0.015067659047561214,0.8246022727272727,13.23844751848717
+Contract type,"Contract, is_month_to_month, contract_risk_score",0.02007386363636362,0.009623935019432765,0.8246022727272727,8.415142463360906
+Monthly price level,"MonthlyCharges, customer_value_segment, charge_delta, bill_increase_flag",0.01064772727272727,0.0036544472227865317,0.8246022727272727,2.4266306316996866
+Internet service type,"InternetService, fiber_no_support",0.01023295454545452,0.005897522001157108,0.8246022727272727,3.763440260148205
+Payment & billing,"PaymentMethod, electronic_check, auto_pay, PaperlessBilling, billing_risk_score",0.007454545454545425,0.005790650861232625,0.8246022727272727,4.50191713914424
+Streaming services,"StreamingTV, StreamingMovies, streaming_count",0.006556818181818147,0.0046372965861694836,0.8246022727272727,3.9233906066109525
+Household / demographics,"SeniorCitizen, Partner, Dependents",0.004312499999999974,0.0024581268590043903,0.8246022727272727,2.0690516445846647
+Security & tech support,"OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, protection_count, no_support_flag",0.004102272727272716,0.003481781835794164,0.8246022727272727,2.68767271634476
+Service mix,"PhoneService, MultipleLines, total_services, service_profile",0.003999999999999981,0.0026708413646342444,0.8246022727272727,2.2199002935083616

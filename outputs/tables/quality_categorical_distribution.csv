@@ -1,0 +1,46 @@
+column,value,count,pct
+gender,Male,771,51.4
+gender,Female,729,48.6
+SeniorCitizen,No,1262,84.13333333333334
+SeniorCitizen,Yes,238,15.866666666666667
+Partner,No,776,51.733333333333334
+Partner,Yes,724,48.266666666666666
+Dependents,No,1041,69.4
+Dependents,Yes,459,30.6
+PhoneService,Yes,1367,91.13333333333334
+PhoneService,No,133,8.866666666666667
+MultipleLines,No,744,49.6
+MultipleLines,Yes,623,41.53333333333333
+MultipleLines,No phone service,133,8.866666666666667
+InternetService,Fiber optic,650,43.333333333333336
+InternetService,DSL,519,34.6
+InternetService,No,331,22.066666666666666
+OnlineSecurity,No,745,49.666666666666664
+OnlineSecurity,Yes,424,28.266666666666666
+OnlineSecurity,No internet service,331,22.066666666666666
+OnlineBackup,No,679,45.266666666666666
+OnlineBackup,Yes,490,32.666666666666664
+OnlineBackup,No internet service,331,22.066666666666666
+DeviceProtection,No,663,44.2
+DeviceProtection,Yes,506,33.733333333333334
+DeviceProtection,No internet service,331,22.066666666666666
+TechSupport,No,749,49.93333333333333
+TechSupport,Yes,420,28.0
+TechSupport,No internet service,331,22.066666666666666
+StreamingTV,No,625,41.666666666666664
+StreamingTV,Yes,544,36.266666666666666
+StreamingTV,No internet service,331,22.066666666666666
+StreamingMovies,No,604,40.266666666666666
+StreamingMovies,Yes,565,37.666666666666664
+StreamingMovies,No internet service,331,22.066666666666666
+Contract,Month-to-month,828,55.2
+Contract,Two year,361,24.066666666666666
+Contract,One year,311,20.733333333333334
+PaperlessBilling,Yes,892,59.46666666666667
+PaperlessBilling,No,608,40.53333333333333
+PaymentMethod,Electronic check,509,33.93333333333333
+PaymentMethod,Mailed check,344,22.933333333333334
+PaymentMethod,Credit card (automatic),329,21.933333333333334
+PaymentMethod,Bank transfer (automatic),318,21.2
+Churn,No,1102,73.46666666666667
+Churn,Yes,398,26.533333333333335

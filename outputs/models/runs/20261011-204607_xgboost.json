@@ -1,0 +1,156 @@
+{
+  "run_id": "20261011-204607",
+  "model": "XGBoost",
+  "params": {
+    "subsample": 0.8,
+    "reg_lambda": 1.0,
+    "n_estimators": 60,
+    "min_child_weight": 5,
+    "max_depth": 2,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.7
+  },
+  "trained_at": "2026-10-11T20:46:07",
+  "dataset_version": "9f931ab0c3f2",
+  "selected": false,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8477088948787062,
+    "cv_pr_auc": 0.6599213860409691,
+    "cv_f1": 0.635923141186299,
+    "cv_recall": 0.7987421383647799,
+    "cv_precision": 0.5284748684449282,
+    "cv_roc_auc_std": 0.008992143325148359,
+    "cv_pr_auc_std": 0.03595193112329899,
+    "cv_f1_std": 0.007261550742907497,
+    "cv_recall_std": 0.008894424920585502,
+    "cv_precision_std": 0.012685477213850634
+  },
+  "test_metrics": null,
+  "feature_importance": [
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.2940572500228882,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.07909321039915085,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.06228769198060036,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.051841624081134796,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.03905676305294037,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.03749288618564606,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.03492967039346695,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "disc__electronic_check",
+      "importance": 0.03396608307957649,
+      "label": "Pays by electronic check"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.03151611238718033,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.026339372619986534,
+      "label": "Online backup: No"
+    },
+    {
+      "feature": "cat__tenure_group_49+ months",
+      "importance": 0.026032596826553345,
+      "label": "Tenure band: 49+ months"
+    },
+    {
+      "feature": "cat__DeviceProtection_No",
+      "importance": 0.023626958951354027,
+      "label": "Device protection: No"
+    },
+    {
+      "feature": "cont__tenure",
+      "importance": 0.023536358028650284,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "cat__customer_value_segment_Premium",
+      "importance": 0.0177362821996212,
+      "label": "Customer value segment: Premium"
+    },
+    {
+      "feature": "cat__MultipleLines_No",
+      "importance": 0.01629750058054924,
+      "label": "Multiple lines: No"
+    },
+    {
+      "feature": "cat__StreamingTV_Yes",
+      "importance": 0.01594851352274418,
+      "label": "Streaming TV: Yes"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.014821658842265606,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "cont__TotalCharges",
+      "importance": 0.014577842317521572,
+      "label": "Total charges"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.014301133342087269,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "cat__PaymentMethod_Mailed check",
+      "importance": 0.013265309855341911,
+      "label": "Payment method: Mailed check"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.012946827337145805,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet+Protection",
+      "importance": 0.01268557459115982,
+      "label": "Service profile: Phone+Internet+Protection"
+    },
+    {
+      "feature": "cat__SeniorCitizen_No",
+      "importance": 0.011453923769295216,
+      "label": "Senior citizen: No"
+    },
+    {
+      "feature": "cat__customer_value_segment_Medium",
+      "importance": 0.011179651133716106,
+      "label": "Customer value segment: Medium"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Protection+Streaming",
+      "importance": 0.009875720366835594,
+      "label": "Service profile: Internet+Protection+Streaming"
+    }
+  ]
+}

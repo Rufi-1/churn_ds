@@ -1,0 +1,15 @@
+# Pinned to the exact versions the bundled demo model was trained and tested with (Python 3.11 - 3.13).
+# Pinning matters: the saved model is a pickle, which must be loaded by the same scikit-learn version.
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+PyYAML==6.0.3
+streamlit==1.65.0
+openpyxl==3.1.5          # Excel uploads
+xgboost==3.4.1           # optional: XGBoost candidate model (project works without it)
+shap==0.53.0             # optional: SHAP plots (project works without it)
+pytest==9.1.1

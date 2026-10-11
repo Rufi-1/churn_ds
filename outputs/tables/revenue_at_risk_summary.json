@@ -1,0 +1,21 @@
+{
+  "threshold": 0.36,
+  "customers": 1500,
+  "total_monthly_revenue": 96157.1,
+  "flagged_customers": 755,
+  "flagged_share": 0.5033333333333333,
+  "monthly_revenue_at_risk": 53612.25,
+  "annual_revenue_at_risk": 643347.0,
+  "pct_of_monthly_revenue_at_risk": 0.5575485325576582,
+  "expected_monthly_loss_all_customers": 43170.96106467154,
+  "critical_customers": 367,
+  "critical_monthly_revenue": 28713.35,
+  "historical_churned_monthly_revenue": 29095.850000000002,
+  "campaign_cost": 30200.0,
+  "assumed_save_rate": 0.3,
+  "assumed_offer_cost": 40.0,
+  "estimated_annual_revenue_retained": 92224.8,
+  "estimated_net_benefit": 62024.8,
+  "currency": "$",
+  "generated_at": "2026-10-11T20:46:39"
+}

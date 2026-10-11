@@ -1,0 +1,153 @@
+{
+  "run_id": "20261011-203944",
+  "model": "Random Forest",
+  "params": {
+    "n_estimators": 200,
+    "min_samples_leaf": 10,
+    "max_features": "sqrt",
+    "max_depth": 8
+  },
+  "trained_at": "2026-10-11T20:39:44",
+  "dataset_version": "16320c9c1ec7",
+  "selected": false,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8475218978472248,
+    "cv_pr_auc": 0.6612178056777381,
+    "cv_f1": 0.6318199639256525,
+    "cv_recall": 0.7732441471571907,
+    "cv_precision": 0.5344412974903581,
+    "cv_roc_auc_std": 0.010296609848534357,
+    "cv_pr_auc_std": 0.022860185768308793,
+    "cv_f1_std": 0.015170917073843545,
+    "cv_recall_std": 0.019887717387717087,
+    "cv_precision_std": 0.017887174234566094
+  },
+  "test_metrics": null,
+  "feature_importance": [
+    {
+      "feature": "cat__Contract_Month-to-month",
+      "importance": 0.10901532980316951,
+      "label": "Contract type: Month-to-month"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.08126614419258814,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.07507140577286214,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "cont__tenure",
+      "importance": 0.060798914096045834,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.059109343300807554,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.05822810532424212,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "cont__TotalCharges",
+      "importance": 0.050203370189121646,
+      "label": "Total charges"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.03794783969321194,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.03507072549384626,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.03398939288629184,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.03240656338222514,
+      "label": "Internet service type: Fiber optic"
+    },
+    {
+      "feature": "cat__TechSupport_No",
+      "importance": 0.030551088089347974,
+      "label": "Tech support: No"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.03038991216053031,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.027279989092730998,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cont__charge_delta",
+      "importance": 0.02025741999908448,
+      "label": "Current bill vs. historical average"
+    },
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.019831499834653075,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "cat__tenure_group_49+ months",
+      "importance": 0.018205392011524824,
+      "label": "Tenure band: 49+ months"
+    },
+    {
+      "feature": "disc__electronic_check",
+      "importance": 0.017112551605828002,
+      "label": "Pays by electronic check"
+    },
+    {
+      "feature": "cat__PaymentMethod_Electronic check",
+      "importance": 0.015540240454695896,
+      "label": "Payment method: Electronic check"
+    },
+    {
+      "feature": "cat__InternetService_DSL",
+      "importance": 0.009948297081394742,
+      "label": "Internet service type: DSL"
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.009667201519388033,
+      "label": "Online backup: No"
+    },
+    {
+      "feature": "disc__protection_count",
+      "importance": 0.009543985936615942,
+      "label": "Protection add-ons (count)"
+    },
+    {
+      "feature": "cat__InternetService_No",
+      "importance": 0.007626796476438391,
+      "label": "Internet service type: No"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No internet service",
+      "importance": 0.007425580895486164,
+      "label": "Online security: No internet service"
+    },
+    {
+      "feature": "disc__total_services",
+      "importance": 0.007225763332135422,
+      "label": "Number of services"
+    }
+  ]
+}

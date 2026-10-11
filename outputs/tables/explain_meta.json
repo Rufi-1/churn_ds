@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-10-11T20:46:36",
+  "shap_available": true,
+  "top_drivers": [
+    "Tenure / customer age",
+    "Contract type",
+    "Monthly price level",
+    "Internet service type",
+    "Payment & billing"
+  ]
+}

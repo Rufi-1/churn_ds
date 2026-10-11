@@ -1,0 +1,10 @@
+rule_id,risk_factor,recommended_action,impact,flagged_customers_affected,monthly_revenue_covered
+R2,"Month-to-month contract, established customer",Offer a loyalty upgrade to a 1- or 2-year contract with a free add-on,3,308,25108.95
+R1,"Month-to-month contract, first year",Offer a 12-month contract with a first-year discount or price lock,3,395,23863.9
+R3,Onboarding window (very new customer),Schedule a 30-day onboarding call and first-bill walkthrough,3,306,17536.35
+R5,Internet without security or tech support,Offer a free 3-month Tech Support + Online Security trial,2,476,35433.25
+R4,Pays by electronic check,Offer a one-off bill credit for switching to automatic bank/credit-card payment,2,405,30790.449999999997
+R6,High-priced fibre plan,Run a service-quality check and a plan/price review call,2,319,29891.35
+R7,Bill above historical average,Proactive bill review: explain the increase or offer a price lock,2,51,3969.3
+R9,Senior customer,Offer assisted support: priority line and a simplified plan,1,183,14531.5
+R8,"Internet-only, few add-ons",Bundle security/backup add-ons at a discount to deepen engagement,1,148,9119.9

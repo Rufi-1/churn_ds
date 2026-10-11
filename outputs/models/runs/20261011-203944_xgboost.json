@@ -1,0 +1,156 @@
+{
+  "run_id": "20261011-203944",
+  "model": "XGBoost",
+  "params": {
+    "subsample": 1.0,
+    "reg_lambda": 5.0,
+    "n_estimators": 200,
+    "min_child_weight": 1,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.7
+  },
+  "trained_at": "2026-10-11T20:39:44",
+  "dataset_version": "16320c9c1ec7",
+  "selected": false,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8485933118846856,
+    "cv_pr_auc": 0.6655375510553675,
+    "cv_f1": 0.632027816078168,
+    "cv_recall": 0.7939799331103679,
+    "cv_precision": 0.5251085248295031,
+    "cv_roc_auc_std": 0.012517426427650675,
+    "cv_pr_auc_std": 0.025442468877652637,
+    "cv_f1_std": 0.01663711543837652,
+    "cv_recall_std": 0.02561095614592196,
+    "cv_precision_std": 0.014413027567365198
+  },
+  "test_metrics": null,
+  "feature_importance": [
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.4817253351211548,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.07429631799459457,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.04326273500919342,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.037142351269721985,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.032651107758283615,
+      "label": "Internet service type: Fiber optic"
+    },
+    {
+      "feature": "cat__Contract_Month-to-month",
+      "importance": 0.03253806009888649,
+      "label": "Contract type: Month-to-month"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.02558223158121109,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.02494075708091259,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cat__StreamingMovies_Yes",
+      "importance": 0.019769981503486633,
+      "label": "Streaming movies: Yes"
+    },
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.019330540671944618,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.018288766965270042,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__TechSupport_No",
+      "importance": 0.01589874178171158,
+      "label": "Tech support: No"
+    },
+    {
+      "feature": "cat__tenure_group_49+ months",
+      "importance": 0.009939838200807571,
+      "label": "Tenure band: 49+ months"
+    },
+    {
+      "feature": "cat__TechSupport_No internet service",
+      "importance": 0.009432894177734852,
+      "label": "Tech support: No internet service"
+    },
+    {
+      "feature": "cat__customer_value_segment_Premium",
+      "importance": 0.009186184965074062,
+      "label": "Customer value segment: Premium"
+    },
+    {
+      "feature": "cont__tenure",
+      "importance": 0.008833340369164944,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.008398608304560184,
+      "label": "Online backup: No"
+    },
+    {
+      "feature": "cat__InternetService_No",
+      "importance": 0.0074933250434696674,
+      "label": "Internet service type: No"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.006913718301802874,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Protection",
+      "importance": 0.006231579929590225,
+      "label": "Service profile: Internet+Protection"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.0054526072926819324,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "cat__Contract_One year",
+      "importance": 0.00504626240581274,
+      "label": "Contract type: One year"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet+Protection+Streaming",
+      "importance": 0.004779529292136431,
+      "label": "Service profile: Phone+Internet+Protection+Streaming"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.00472527788951993,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "cat__PhoneService_Yes",
+      "importance": 0.00471664359793067,
+      "label": "Phone service: Yes"
+    }
+  ]
+}

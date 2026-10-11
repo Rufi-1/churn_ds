@@ -1,0 +1,8 @@
+feature,vif,concern
+MonthlyCharges,129.71131330156587,severe (>10)
+avg_monthly_spend,126.16166920986784,severe (>10)
+total_services,27.612239861129925,severe (>10)
+TotalCharges,9.648236803182373,moderate (>5)
+protection_count,8.835028542759296,moderate (>5)
+tenure,5.604105314010301,moderate (>5)
+streaming_count,3.8907495307587388,ok

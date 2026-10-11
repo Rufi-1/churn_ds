@@ -1,0 +1,15 @@
+# Use this instead of requirements.txt on older Python versions (3.9/3.10) or if the pins fail to install.
+# After installing, retrain the model in your environment:  python run_pipeline.py all
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.4
+matplotlib>=3.7
+seaborn>=0.12
+joblib>=1.3
+PyYAML>=6.0
+streamlit>=1.35
+openpyxl>=3.1
+pytest>=7.4
+xgboost>=2.0
+shap>=0.44

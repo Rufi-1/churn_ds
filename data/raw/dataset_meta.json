@@ -1,0 +1,10 @@
+{
+  "source": "bundled sample",
+  "note": "",
+  "rows": 1500,
+  "columns": 21,
+  "sha256_12": "9f931ab0c3f2",
+  "path": "C:\\Users\\USER\\Desktop\\Customer_Churn_Prediction\\churn_ds\\data\\raw\\telco_churn.csv",
+  "seeded_at": "2026-10-11T20:45:12",
+  "url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv"
+}

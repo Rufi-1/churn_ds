@@ -1,0 +1,156 @@
+{
+  "run_id": "20261011-085812",
+  "model": "XGBoost",
+  "params": {
+    "subsample": 1.0,
+    "reg_lambda": 5.0,
+    "n_estimators": 200,
+    "min_child_weight": 1,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.7
+  },
+  "trained_at": "2026-10-11T08:58:12",
+  "dataset_version": "16320c9c1ec7",
+  "selected": false,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8484583225124,
+    "cv_pr_auc": 0.6641618646585945,
+    "cv_f1": 0.6325280685023694,
+    "cv_recall": 0.7946488294314381,
+    "cv_precision": 0.5255181823124933,
+    "cv_roc_auc_std": 0.012369270063971137,
+    "cv_pr_auc_std": 0.02753634243066973,
+    "cv_f1_std": 0.01807136462680153,
+    "cv_recall_std": 0.02834731786008978,
+    "cv_precision_std": 0.015070262654419126
+  },
+  "test_metrics": null,
+  "feature_importance": [
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.44511356949806213,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.11050914973020554,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.04761354252696037,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.03840482234954834,
+      "label": "Internet service type: Fiber optic"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.03759338706731796,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.036160774528980255,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.02678200602531433,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cat__OnlineBackup_No internet service",
+      "importance": 0.017778974026441574,
+      "label": "Online backup: No internet service"
+    },
+    {
+      "feature": "cat__StreamingMovies_Yes",
+      "importance": 0.017412927001714706,
+      "label": "Streaming movies: Yes"
+    },
+    {
+      "feature": "cat__TechSupport_No",
+      "importance": 0.016459349542856216,
+      "label": "Tech support: No"
+    },
+    {
+      "feature": "cat__tenure_group_49+ months",
+      "importance": 0.016021957620978355,
+      "label": "Tenure band: 49+ months"
+    },
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.014921940863132477,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.01222784724086523,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No internet service",
+      "importance": 0.011611981317400932,
+      "label": "Online security: No internet service"
+    },
+    {
+      "feature": "cont__tenure",
+      "importance": 0.009129798971116543,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.008922467939555645,
+      "label": "Online backup: No"
+    },
+    {
+      "feature": "cat__tenure_group_25-48 months",
+      "importance": 0.008123035542666912,
+      "label": "Tenure band: 25-48 months"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.006538750603795052,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "cat__Contract_One year",
+      "importance": 0.005945936311036348,
+      "label": "Contract type: One year"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Protection",
+      "importance": 0.005762884858995676,
+      "label": "Service profile: Internet+Protection"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.005179290194064379,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "cont__TotalCharges",
+      "importance": 0.005112617276608944,
+      "label": "Total charges"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.00500611262395978,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "cat__PaymentMethod_Electronic check",
+      "importance": 0.00461580092087388,
+      "label": "Payment method: Electronic check"
+    },
+    {
+      "feature": "cat__SeniorCitizen_Yes",
+      "importance": 0.004473911132663488,
+      "label": "Senior citizen: Yes"
+    }
+  ]
+}

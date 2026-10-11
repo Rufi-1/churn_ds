@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-11T20:45:14",
+  "raw_rows": 1500,
+  "raw_columns": 21,
+  "clean_rows": 1500,
+  "clean_columns": 22,
+  "duplicate_rows_raw": 0,
+  "duplicate_ids_raw": 0,
+  "duplicate_rows_clean": 0,
+  "missing_cells_raw": 3,
+  "missing_cells_clean": 0,
+  "churn_rate": 0.2653333333333333,
+  "memory_mb_clean": 1.52999
+}

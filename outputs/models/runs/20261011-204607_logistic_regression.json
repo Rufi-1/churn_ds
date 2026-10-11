@@ -1,0 +1,181 @@
+{
+  "run_id": "20261011-204607",
+  "model": "Logistic Regression",
+  "params": {
+    "C": 0.1
+  },
+  "trained_at": "2026-10-11T20:46:07",
+  "dataset_version": "9f931ab0c3f2",
+  "selected": true,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8466499807470158,
+    "cv_pr_auc": 0.6566810722488003,
+    "cv_f1": 0.6259485501136836,
+    "cv_recall": 0.789308176100629,
+    "cv_precision": 0.5195066315116651,
+    "cv_roc_auc_std": 0.0035458184236121437,
+    "cv_pr_auc_std": 0.031372530202377256,
+    "cv_f1_std": 0.0014109479951050728,
+    "cv_recall_std": 0.031130487222049256,
+    "cv_precision_std": 0.013913434550118084
+  },
+  "test_metrics": {
+    "accuracy": 0.6966666666666667,
+    "precision": 0.46153846153846156,
+    "recall": 0.825,
+    "f1": 0.5919282511210763,
+    "roc_auc": 0.8246022727272727
+  },
+  "feature_importance": [
+    {
+      "feature": "cont__tenure",
+      "importance": 0.7313470184246277,
+      "coefficient": -0.7313470184246277,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.5482355633553625,
+      "coefficient": 0.5482355633553625,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.3099952952701668,
+      "coefficient": 0.3099952952701668,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Protection+Streaming",
+      "importance": 0.28903222846799687,
+      "coefficient": 0.28903222846799687,
+      "label": "Service profile: Internet+Protection+Streaming"
+    },
+    {
+      "feature": "cat__SeniorCitizen_No",
+      "importance": 0.2498324061661561,
+      "coefficient": -0.2498324061661561,
+      "label": "Senior citizen: No"
+    },
+    {
+      "feature": "cat__SeniorCitizen_Yes",
+      "importance": 0.2493526782474247,
+      "coefficient": 0.2493526782474247,
+      "label": "Senior citizen: Yes"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.24472567781712734,
+      "coefficient": 0.24472567781712734,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet+Protection+Streaming",
+      "importance": 0.242787697577409,
+      "coefficient": -0.242787697577409,
+      "label": "Service profile: Phone+Internet+Protection+Streaming"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.20192886129736198,
+      "coefficient": 0.20192886129736198,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.19216847882268334,
+      "coefficient": 0.19216847882268334,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.1833387090688041,
+      "coefficient": 0.1833387090688041,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "cat__tenure_group_7-12 months",
+      "importance": 0.18114480573400227,
+      "coefficient": -0.18114480573400227,
+      "label": "Tenure band: 7-12 months"
+    },
+    {
+      "feature": "cat__customer_value_segment_Premium",
+      "importance": 0.17209010372770372,
+      "coefficient": 0.17209010372770372,
+      "label": "Customer value segment: Premium"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.16641765654570506,
+      "coefficient": -0.16641765654570506,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Protection",
+      "importance": 0.16587231600741967,
+      "coefficient": -0.16587231600741967,
+      "label": "Service profile: Internet+Protection"
+    },
+    {
+      "feature": "cat__PaymentMethod_Bank transfer (automatic)",
+      "importance": 0.16389616317785932,
+      "coefficient": 0.16389616317785932,
+      "label": "Payment method: Bank transfer (automatic)"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet",
+      "importance": 0.15358357212621052,
+      "coefficient": 0.15358357212621052,
+      "label": "Service profile: Phone+Internet"
+    },
+    {
+      "feature": "cat__tenure_group_25-48 months",
+      "importance": 0.14483597859842037,
+      "coefficient": -0.14483597859842037,
+      "label": "Tenure band: 25-48 months"
+    },
+    {
+      "feature": "cat__PaymentMethod_Credit card (automatic)",
+      "importance": 0.13863426596469522,
+      "coefficient": -0.13863426596469522,
+      "label": "Payment method: Credit card (automatic)"
+    },
+    {
+      "feature": "cat__tenure_group_49+ months",
+      "importance": 0.13669172485260053,
+      "coefficient": -0.13669172485260053,
+      "label": "Tenure band: 49+ months"
+    },
+    {
+      "feature": "disc__electronic_check",
+      "importance": 0.12118939082497512,
+      "coefficient": 0.12118939082497512,
+      "label": "Pays by electronic check"
+    },
+    {
+      "feature": "cat__customer_value_segment_Medium",
+      "importance": 0.11328799933332095,
+      "coefficient": -0.11328799933332095,
+      "label": "Customer value segment: Medium"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.11189298956463299,
+      "coefficient": 0.11189298956463299,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "cat__StreamingTV_Yes",
+      "importance": 0.10432120205108547,
+      "coefficient": 0.10432120205108547,
+      "label": "Streaming TV: Yes"
+    },
+    {
+      "feature": "cat__MultipleLines_No",
+      "importance": 0.10268129223033946,
+      "coefficient": -0.10268129223033946,
+      "label": "Multiple lines: No"
+    }
+  ]
+}

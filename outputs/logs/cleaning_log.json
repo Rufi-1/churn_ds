@@ -1,0 +1,44 @@
+[
+  {
+    "step": "whitespace",
+    "column": "TotalCharges",
+    "issue": "leading/trailing/duplicate whitespace",
+    "rows_affected": 3,
+    "action": "trimmed and collapsed spaces"
+  },
+  {
+    "step": "missing",
+    "column": "TotalCharges",
+    "issue": "blank string",
+    "rows_affected": 3,
+    "action": "converted to NaN"
+  },
+  {
+    "step": "categories",
+    "column": "SeniorCitizen",
+    "issue": "numeric 0/1 coding",
+    "rows_affected": 1500,
+    "action": "mapped 0/1 to No/Yes"
+  },
+  {
+    "step": "missing",
+    "column": "TotalCharges",
+    "issue": "missing for tenure = 0 (not yet billed)",
+    "rows_affected": 3,
+    "action": "set to 0.0 (logical rule)"
+  },
+  {
+    "step": "outliers",
+    "column": "TotalCharges",
+    "issue": "values outside Tukey IQR fences",
+    "rows_affected": 11,
+    "action": "kept (genuine values); winsorised on training data in the model pipeline"
+  },
+  {
+    "step": "summary",
+    "column": "-",
+    "issue": "1500 raw rows -> 1500 clean rows",
+    "rows_affected": 0,
+    "action": "rows removed in total"
+  }
+]

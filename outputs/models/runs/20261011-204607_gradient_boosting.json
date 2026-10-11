@@ -1,0 +1,154 @@
+{
+  "run_id": "20261011-204607",
+  "model": "Gradient Boosting",
+  "params": {
+    "subsample": 0.8,
+    "n_estimators": 40,
+    "min_samples_leaf": 10,
+    "max_depth": 3,
+    "learning_rate": 0.1
+  },
+  "trained_at": "2026-10-11T20:46:07",
+  "dataset_version": "9f931ab0c3f2",
+  "selected": false,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8425052410901467,
+    "cv_pr_auc": 0.6532886189871923,
+    "cv_f1": 0.5783642571207338,
+    "cv_recall": 0.5220125786163522,
+    "cv_precision": 0.65055630079697,
+    "cv_roc_auc_std": 0.0038474164097513208,
+    "cv_pr_auc_std": 0.01408501979055185,
+    "cv_f1_std": 0.038856434540459894,
+    "cv_recall_std": 0.0495220621007032,
+    "cv_precision_std": 0.0276510228807901
+  },
+  "test_metrics": null,
+  "feature_importance": [
+    {
+      "feature": "cont__tenure",
+      "importance": 0.20457105829514952,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "cat__Contract_Month-to-month",
+      "importance": 0.09513518700393586,
+      "label": "Contract type: Month-to-month"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.0917086923293154,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "cont__TotalCharges",
+      "importance": 0.09048205062251848,
+      "label": "Total charges"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.08070349259938596,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.07247168512189905,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "disc__fiber_no_support",
+      "importance": 0.05807359693865546,
+      "label": "Fiber without tech support"
+    },
+    {
+      "feature": "cont__charge_delta",
+      "importance": 0.05699742199979368,
+      "label": "Current bill vs. historical average"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.0410828514194655,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.03887583046957559,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.033627634814718775,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.02753087023802123,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Protection+Streaming",
+      "importance": 0.012828419270254451,
+      "label": "Service profile: Internet+Protection+Streaming"
+    },
+    {
+      "feature": "cat__OnlineBackup_No",
+      "importance": 0.011286621808651295,
+      "label": "Online backup: No"
+    },
+    {
+      "feature": "cat__tenure_group_7-12 months",
+      "importance": 0.0099033709943884,
+      "label": "Tenure band: 7-12 months"
+    },
+    {
+      "feature": "disc__electronic_check",
+      "importance": 0.009723306218049024,
+      "label": "Pays by electronic check"
+    },
+    {
+      "feature": "cat__SeniorCitizen_Yes",
+      "importance": 0.008939945172766134,
+      "label": "Senior citizen: Yes"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet+Protection",
+      "importance": 0.005078845353763169,
+      "label": "Service profile: Phone+Internet+Protection"
+    },
+    {
+      "feature": "cat__SeniorCitizen_No",
+      "importance": 0.005038640125897209,
+      "label": "Senior citizen: No"
+    },
+    {
+      "feature": "cat__StreamingTV_Yes",
+      "importance": 0.005004675235644078,
+      "label": "Streaming TV: Yes"
+    },
+    {
+      "feature": "cat__MultipleLines_No",
+      "importance": 0.004013524124696175,
+      "label": "Multiple lines: No"
+    },
+    {
+      "feature": "cat__PhoneService_No",
+      "importance": 0.003799763756192756,
+      "label": "Phone service: No"
+    },
+    {
+      "feature": "cat__PaymentMethod_Mailed check",
+      "importance": 0.0032935608679332596,
+      "label": "Payment method: Mailed check"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.003241803873366594,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "cat__PaymentMethod_Credit card (automatic)",
+      "importance": 0.0030371633901641764,
+      "label": "Payment method: Credit card (automatic)"
+    }
+  ]
+}

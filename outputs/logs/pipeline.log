@@ -1,0 +1,44 @@
+20:28:43 | INFO    | Downloading dataset from https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv
+20:28:44 | INFO    | Raw data ready: 7043 rows from downloaded (IBM Telco Customer Churn) -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\raw\telco_churn.csv
+20:31:28 | INFO    | Raw data ready: 7043 rows from existing file -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\raw\telco_churn.csv
+20:31:30 | INFO    | Data-quality report saved to C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\outputs\reports\data_quality_report.md
+20:31:32 | INFO    | Clean data -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\processed\telco_clean.csv (7043 rows); modeling data -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\processed\telco_modeling.csv
+20:31:58 | INFO    | EDA: 20 figures saved to C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\outputs\figures
+20:32:00 | INFO    | Statistical report saved to C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\outputs\reports\statistical_report.md
+20:32:01 | INFO    | Split: train=5634 test=1409 | churn rate train 0.265 test 0.265
+20:32:01 | INFO    | Tuning Logistic Regression (grid search, 5-fold CV)...
+20:32:24 | INFO    |   Logistic Regression: CV ROC-AUC 0.8472 | PR-AUC 0.6595 | recall 0.793 | F1 0.629 (23s)
+20:32:24 | INFO    | Tuning Random Forest (random search, 5-fold CV)...
+20:35:12 | INFO    |   Random Forest: CV ROC-AUC 0.8475 | PR-AUC 0.6612 | recall 0.773 | F1 0.632 (168s)
+20:35:12 | INFO    | Tuning Gradient Boosting (random search, 5-fold CV)...
+20:38:28 | INFO    |   Gradient Boosting: CV ROC-AUC 0.8499 | PR-AUC 0.6685 | recall 0.523 | F1 0.586 (196s)
+20:38:28 | INFO    | Tuning XGBoost (random search, 5-fold CV)...
+20:39:42 | INFO    |   XGBoost: CV ROC-AUC 0.8486 | PR-AUC 0.6655 | recall 0.794 | F1 0.632 (74s)
+20:39:42 | INFO    | Selected model: Logistic Regression. Logistic Regression (0.8472) was within 0.003 of the best model Gradient Boosting (0.8499) on cross-validated ROC_AUC; the simpler, more interpretable model was preferred (parsimony rule).
+20:39:43 | INFO    | Threshold: tuned=0.45 (F1.5 on out-of-fold train predictions); using 0.45
+20:39:44 | INFO    | TEST (untouched) @thr 0.45: recall 0.829 precision 0.490 f1 0.616 roc_auc 0.845
+20:39:54 | INFO    | Evaluation: recall=0.829 precision=0.490 f1=0.616 roc_auc=0.845 @thr 0.45
+20:40:26 | INFO    | Explainability: top driver = Tenure / customer age (SHAP on)
+20:40:38 | INFO    | Insights: 3124 flagged customers, monthly revenue at risk $234,995 (annual $2,819,943)
+20:40:42 | INFO    | Reports written: final_report.md, final_report.html, final_report.pdf
+20:45:12 | INFO    | Raw data ready: 1500 rows from bundled sample -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\raw\telco_churn.csv
+20:45:15 | INFO    | Data-quality report saved to C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\outputs\reports\data_quality_report.md
+20:45:15 | INFO    | Clean data -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\processed\telco_clean.csv (1500 rows); modeling data -> C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\data\processed\telco_modeling.csv
+20:45:41 | INFO    | EDA: 20 figures saved to C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\outputs\figures
+20:45:43 | INFO    | Statistical report saved to C:\Users\USER\Desktop\Customer_Churn_Prediction\churn_ds\outputs\reports\statistical_report.md
+20:45:43 | INFO    | Split: train=1200 test=300 | churn rate train 0.265 test 0.267
+20:45:43 | INFO    | Tuning Logistic Regression (grid search, 3-fold CV)...
+20:45:54 | INFO    |   Logistic Regression: CV ROC-AUC 0.8466 | PR-AUC 0.6567 | recall 0.789 | F1 0.626 (11s)
+20:45:54 | INFO    | Tuning Random Forest (random search, 3-fold CV)...
+20:45:58 | INFO    |   Random Forest: CV ROC-AUC 0.8468 | PR-AUC 0.6627 | recall 0.752 | F1 0.616 (4s)
+20:45:58 | INFO    | Tuning Gradient Boosting (random search, 3-fold CV)...
+20:46:02 | INFO    |   Gradient Boosting: CV ROC-AUC 0.8425 | PR-AUC 0.6533 | recall 0.522 | F1 0.578 (4s)
+20:46:02 | INFO    | Tuning XGBoost (random search, 3-fold CV)...
+20:46:06 | INFO    |   XGBoost: CV ROC-AUC 0.8477 | PR-AUC 0.6599 | recall 0.799 | F1 0.636 (4s)
+20:46:06 | INFO    | Selected model: Logistic Regression. Logistic Regression (0.8466) was within 0.003 of the best model XGBoost (0.8477) on cross-validated ROC_AUC; the simpler, more interpretable model was preferred (parsimony rule).
+20:46:07 | INFO    | Threshold: tuned=0.36 (F1.5 on out-of-fold train predictions); using 0.36
+20:46:07 | INFO    | TEST (untouched) @thr 0.36: recall 0.825 precision 0.462 f1 0.592 roc_auc 0.825
+20:46:12 | INFO    | Evaluation: recall=0.825 precision=0.462 f1=0.592 roc_auc=0.825 @thr 0.36
+20:46:36 | INFO    | Explainability: top driver = Tenure / customer age (SHAP on)
+20:46:39 | INFO    | Insights: 755 flagged customers, monthly revenue at risk $53,612 (annual $643,347)
+20:46:44 | INFO    | Reports written: final_report.md, final_report.html, final_report.pdf

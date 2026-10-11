@@ -1,0 +1,76 @@
+feature,importance,coefficient,label
+cont__tenure,0.7313470184246277,-0.7313470184246277,Tenure (months)
+cat__tenure_group_0-6 months,0.5482355633553625,0.5482355633553625,Tenure band: 0-6 months
+disc__contract_risk_score,0.3099952952701668,0.3099952952701668,Contract risk score
+cat__service_profile_Internet+Protection+Streaming,0.28903222846799687,0.28903222846799687,Service profile: Internet+Protection+Streaming
+cat__SeniorCitizen_No,0.2498324061661561,-0.2498324061661561,Senior citizen: No
+cat__SeniorCitizen_Yes,0.2493526782474247,0.2493526782474247,Senior citizen: Yes
+disc__fiber_no_support,0.24472567781712734,0.24472567781712734,Fiber without tech support
+cat__service_profile_Phone+Internet+Protection+Streaming,0.242787697577409,-0.242787697577409,Service profile: Phone+Internet+Protection+Streaming
+disc__streaming_count,0.20192886129736198,0.20192886129736198,Streaming add-ons (count)
+disc__billing_risk_score,0.19216847882268334,0.19216847882268334,Billing risk score
+disc__is_month_to_month,0.1833387090688041,0.1833387090688041,Month-to-month contract
+cat__tenure_group_7-12 months,0.18114480573400227,-0.18114480573400227,Tenure band: 7-12 months
+cat__customer_value_segment_Premium,0.17209010372770372,0.17209010372770372,Customer value segment: Premium
+cat__Contract_Two year,0.16641765654570506,-0.16641765654570506,Contract type: Two year
+cat__service_profile_Internet+Protection,0.16587231600741967,-0.16587231600741967,Service profile: Internet+Protection
+cat__PaymentMethod_Bank transfer (automatic),0.16389616317785932,0.16389616317785932,Payment method: Bank transfer (automatic)
+cat__service_profile_Phone+Internet,0.15358357212621052,0.15358357212621052,Service profile: Phone+Internet
+cat__tenure_group_25-48 months,0.14483597859842037,-0.14483597859842037,Tenure band: 25-48 months
+cat__PaymentMethod_Credit card (automatic),0.13863426596469522,-0.13863426596469522,Payment method: Credit card (automatic)
+cat__tenure_group_49+ months,0.13669172485260053,-0.13669172485260053,Tenure band: 49+ months
+disc__electronic_check,0.12118939082497512,0.12118939082497512,Pays by electronic check
+cat__customer_value_segment_Medium,0.11328799933332095,-0.11328799933332095,Customer value segment: Medium
+cat__OnlineSecurity_No,0.11189298956463299,0.11189298956463299,Online security: No
+cat__StreamingTV_Yes,0.10432120205108547,0.10432120205108547,Streaming TV: Yes
+cat__MultipleLines_No,0.10268129223033946,-0.10268129223033946,Multiple lines: No
+disc__bill_increase_flag,0.10178100003357596,-0.10178100003357596,Bill above historical average
+cat__service_profile_Internet,0.1006174777123566,-0.1006174777123566,Service profile: Internet
+cont__MonthlyCharges,0.09720276948025122,0.09720276948025122,Monthly charges
+cat__PhoneService_Yes,0.0908928230958174,-0.0908928230958174,Phone service: Yes
+cat__Contract_Month-to-month,0.09075703121269675,0.09075703121269675,Contract type: Month-to-month
+cat__MultipleLines_No phone service,0.09041309517708573,0.09041309517708573,Multiple lines: No phone service
+cat__PhoneService_No,0.09041309517708573,0.09041309517708573,Phone service: No
+cat__tenure_group_13-24 months,0.08604278208907115,-0.08604278208907115,Tenure band: 13-24 months
+cat__PaymentMethod_Mailed check,0.08308723904373017,-0.08308723904373017,Payment method: Mailed check
+cont__avg_monthly_spend,0.07613460954032637,0.07613460954032637,Average monthly spend
+cat__PaperlessBilling_No,0.07584518771892337,-0.07584518771892337,Paperless billing: No
+cat__PaperlessBilling_Yes,0.07536545980019141,0.07536545980019141,Paperless billing: Yes
+cat__Contract_One year,0.07518089741427689,0.07518089741427689,Contract type: One year
+cat__OnlineBackup_No,0.07407291914052067,0.07407291914052067,Online backup: No
+cont__charge_delta,0.07228779145617174,0.07228779145617174,Current bill vs. historical average
+cat__service_profile_Phone+Internet+Protection,0.06952200804124727,0.06952200804124727,Service profile: Phone+Internet+Protection
+cat__service_profile_Internet+Streaming,0.06787066042886492,0.06787066042886492,Service profile: Internet+Streaming
+cat__OnlineSecurity_Yes,0.0658944023698391,-0.0658944023698391,Online security: Yes
+cat__StreamingMovies_Yes,0.06456622851581731,0.06456622851581731,Streaming movies: Yes
+cat__Dependents_No,0.06329113645220781,-0.06329113645220781,Has dependents: No
+cat__Dependents_Yes,0.06281140853347628,0.06281140853347628,Has dependents: Yes
+cat__customer_value_segment_High,0.06210129232074583,-0.06210129232074583,Customer value segment: High
+disc__no_support_flag,0.05999396523976176,0.05999396523976176,Internet without security/tech support
+cat__StreamingTV_No,0.05832261485629044,-0.05832261485629044,Streaming TV: No
+cat__PaymentMethod_Electronic check,0.05734561391183517,0.05734561391183517,Payment method: Electronic check
+disc__auto_pay,0.05136670389598114,0.05136670389598114,Automatic payment
+disc__total_services,0.04690830453965941,0.04690830453965941,Number of services
+cat__TechSupport_Yes,0.046891691420564964,0.046891691420564964,Tech support: Yes
+cat__service_profile_Phone,0.04647831511352583,-0.04647831511352583,Service profile: Phone
+cat__InternetService_No,0.04647831511352583,-0.04647831511352583,Internet service type: No
+cat__TechSupport_No internet service,0.04647831511352583,-0.04647831511352583,Tech support: No internet service
+cat__OnlineSecurity_No internet service,0.04647831511352583,-0.04647831511352583,Online security: No internet service
+cat__OnlineBackup_No internet service,0.04647831511352583,-0.04647831511352583,Online backup: No internet service
+cat__DeviceProtection_No internet service,0.04647831511352583,-0.04647831511352583,Device protection: No internet service
+cat__StreamingTV_No internet service,0.04647831511352583,-0.04647831511352583,Streaming TV: No internet service
+cat__StreamingMovies_No internet service,0.04647831511352583,-0.04647831511352583,Streaming movies: No internet service
+cat__InternetService_Fiber optic,0.04247913193020543,0.04247913193020543,Internet service type: Fiber optic
+cat__Partner_Yes,0.04225116823141075,-0.04225116823141075,Has partner: Yes
+cat__Partner_No,0.041771440312680375,0.041771440312680375,Has partner: No
+cat__DeviceProtection_No,0.030520321867646742,0.030520321867646742,Device protection: No
+cat__OnlineBackup_Yes,0.028074331945726703,-0.028074331945726703,Online backup: Yes
+cat__service_profile_Phone+Internet+Streaming,0.024732390572340182,-0.024732390572340182,Service profile: Phone+Internet+Streaming
+disc__protection_count,0.02433079183471084,-0.02433079183471084,Protection add-ons (count)
+cont__TotalCharges,0.022375970852995364,-0.022375970852995364,Total charges
+cat__StreamingMovies_No,0.01856764132102286,-0.01856764132102286,Streaming movies: No
+cat__DeviceProtection_Yes,0.015478265327147783,0.015478265327147783,Device protection: Yes
+cat__MultipleLines_Yes,0.011788469134522854,0.011788469134522854,Multiple lines: Yes
+cat__InternetService_DSL,0.0035194552645886556,0.0035194552645886556,Internet service type: DSL
+cat__customer_value_segment_Low,0.0028194600076322193,0.0028194600076322193,Customer value segment: Low
+cat__TechSupport_No,0.000893104225770865,-0.000893104225770865,Tech support: No

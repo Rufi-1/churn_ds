@@ -1,0 +1,4 @@
+InternetService,customers,churned,churn_rate
+Fiber optic,650,270,0.4153846153846154
+DSL,519,102,0.19653179190751446
+No,331,26,0.07854984894259819

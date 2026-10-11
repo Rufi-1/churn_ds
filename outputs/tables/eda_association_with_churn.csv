@@ -1,0 +1,20 @@
+variable,label,cramers_v
+Contract,Contract type,0.4105455124805278
+tenure_group,Tenure band,0.40340831479237843
+service_profile,Service profile,0.3574462263143069
+OnlineSecurity,Online security,0.3434917186038019
+TechSupport,Tech support,0.32991539393762936
+InternetService,Internet service type,0.3129663662517859
+OnlineBackup,Online backup,0.29041240627669174
+PaymentMethod,Payment method,0.29035032786471426
+DeviceProtection,Device protection,0.2879677117793903
+StreamingTV,Streaming TV,0.23179572036609444
+StreamingMovies,Streaming movies,0.22870608982035703
+customer_value_segment,Customer value segment,0.22477382470782062
+PaperlessBilling,Paperless billing,0.1732239421183264
+Partner,Has partner,0.17254605382336624
+SeniorCitizen,Senior citizen,0.1688262283361451
+Dependents,Has dependents,0.15986015634621806
+MultipleLines,Multiple lines,0.04054026292769974
+gender,Gender,0.03798152034472336
+PhoneService,Phone service,0.014398755701047237

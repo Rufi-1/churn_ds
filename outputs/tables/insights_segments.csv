@@ -1,0 +1,16 @@
+segment,customers,flagged,flagged_pct,avg_churn_probability,monthly_revenue_at_risk,annual_revenue_at_risk,top_recommended_action,urgency
+Month-to-month | 0-6 months,305,301,0.9868852459016394,0.7389446981297326,17236.9,206842.80000000002,Offer a 12-month contract with a first-year discount or price lock,Urgent
+Month-to-month | 13-24 months,175,151,0.8628571428571429,0.6187083225299779,11510.35,138124.2,Offer a loyalty upgrade to a 1- or 2-year contract with a free add-on,Urgent
+Month-to-month | 25-48 months,163,117,0.7177914110429447,0.5235609801127694,9974.149999999998,119689.79999999997,Offer a loyalty upgrade to a 1- or 2-year contract with a free add-on,Urgent
+Month-to-month | 7-12 months,117,94,0.8034188034188035,0.6018896406128923,6626.999999999998,79523.99999999997,Offer a 12-month contract with a first-year discount or price lock,Urgent
+Month-to-month | 49+ months,68,40,0.5882352941176471,0.42510323260095245,3624.4500000000003,43493.4,Offer a loyalty upgrade to a 1- or 2-year contract with a free add-on,Urgent
+One year | 49+ months,134,17,0.12686567164179105,0.17509260569858223,1661.9,19942.800000000003,Offer a one-off bill credit for switching to automatic bank/credit-card payment,Monitor
+One year | 25-48 months,108,18,0.16666666666666666,0.2038650222210517,1652.9499999999998,19835.399999999998,Offer a free 3-month Tech Support + Online Security trial,Monitor
+One year | 13-24 months,33,7,0.21212121212121213,0.22719201533315525,621.0,7452.0,Offer a free 3-month Tech Support + Online Security trial,Monitor
+One year | 0-6 months,16,5,0.3125,0.3471966696494846,299.45,3593.3999999999996,Schedule a 30-day onboarding call and first-bill walkthrough,High
+One year | 7-12 months,20,4,0.2,0.2498749297385982,295.2,3542.3999999999996,Offer a one-off bill credit for switching to automatic bank/credit-card payment,Monitor
+Two year | 25-48 months,56,1,0.017857142857142856,0.08348321110159183,108.9,1306.8000000000002,Offer a one-off bill credit for switching to automatic bank/credit-card payment,Monitor
+Two year | 0-6 months,4,0,0.0,0.1911803944732749,0.0,0.0,No action - monitor,Monitor
+Two year | 13-24 months,19,0,0.0,0.06953891658857779,0.0,0.0,No action - monitor,Monitor
+Two year | 49+ months,272,0,0.0,0.05505963693235884,0.0,0.0,No action - monitor,Monitor
+Two year | 7-12 months,10,0,0.0,0.09736296513983608,0.0,0.0,No action - monitor,Monitor

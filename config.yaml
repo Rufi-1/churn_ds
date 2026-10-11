@@ -1,0 +1,83 @@
+# ---------------------------------------------------------------------------
+# churn_ds configuration. All paths are relative to the project root.
+# Edit values here (or set CHURN_CONFIG=/path/to/other.yaml) - no code changes needed.
+# ---------------------------------------------------------------------------
+random_seed: 42
+
+paths:
+  raw_data: data/raw/telco_churn.csv
+  sample_data: data/sample/telco_churn_sample.csv
+  clean_data: data/processed/telco_clean.csv
+  modeling_data: data/processed/telco_modeling.csv
+  models_dir: outputs/models
+  figures_dir: outputs/figures
+  reports_dir: outputs/reports
+  tables_dir: outputs/tables
+  logs_dir: outputs/logs
+  history_file: outputs/prediction_history.csv
+
+data:
+  # IBM Telco Customer Churn dataset (public sample data, 7,043 customers)
+  download_url: https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv
+  id_column: customerID
+  target_column: Churn
+  positive_label: "Yes"
+
+split:
+  test_size: 0.20            # untouched hold-out set (stratified on churn)
+
+cleaning:
+  outlier_iqr_multiplier: 1.5
+
+features:
+  # Columns excluded from the model (still analysed in EDA / statistics).
+  # gender is excluded by default as a fairness precaution: it is a protected attribute.
+  exclude_from_model: [gender]
+  tenure_bins: [-1, 6, 12, 24, 48, 1000]
+  tenure_labels: ["0-6 months", "7-12 months", "13-24 months", "25-48 months", "49+ months"]
+  # customer value segments from MonthlyCharges (fixed business thresholds, not data-fitted)
+  value_bins: [-1, 35, 70, 90, 100000]
+  value_labels: ["Low", "Medium", "High", "Premium"]
+  bill_increase_threshold: 5.0   # MonthlyCharges - historical average spend above this => flag
+  winsor_quantiles: [0.01, 0.99] # learned on training data only
+
+modeling:
+  models: [logistic_regression, random_forest, gradient_boosting, xgboost]
+  cv_folds: 5
+  n_iter: 12                 # RandomizedSearchCV iterations for tree models
+  tuning_metric: roc_auc     # metric used to refit/select within a model's search
+  parsimony_tolerance: 0.003 # prefer Logistic Regression if within this CV ROC-AUC of the best
+  n_jobs: -1
+  fast: false                # true = tiny grids (used by tests / quick demos)
+
+threshold:
+  mode: tuned                # tuned = chosen on out-of-fold training predictions | fixed
+  value: 0.50                # used when mode == fixed
+  beta: 1.5                  # F-beta used to tune the threshold (beta>1 favours recall over precision)
+  critical_probability: 0.70 # customers at/above this are "Critical" risk
+
+business:
+  currency: "$"
+  retention_offer_cost: 40.0   # average cost of one retention offer per contacted customer
+  save_rate: 0.30              # share of correctly flagged churners we expect to retain
+  priority_weights:
+    probability: 0.50
+    revenue: 0.30
+    tenure: 0.10
+    risk_factors: 0.10
+  segment_urgent_flag_rate: 0.50
+  segment_high_flag_rate: 0.30
+
+recommendations:
+  new_customer_months: 6
+  early_tenure_months: 12
+  high_charge: 80.0
+
+explain:
+  permutation_repeats: 10
+  use_shap: true
+  shap_sample_size: 300
+  background_size: 100
+
+stats:
+  alpha: 0.05

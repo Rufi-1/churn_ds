@@ -1,0 +1,181 @@
+{
+  "run_id": "20261011-203944",
+  "model": "Logistic Regression",
+  "params": {
+    "C": 0.03
+  },
+  "trained_at": "2026-10-11T20:39:44",
+  "dataset_version": "16320c9c1ec7",
+  "selected": true,
+  "cv_metrics": {
+    "cv_roc_auc": 0.8471844336964811,
+    "cv_pr_auc": 0.6594809792021807,
+    "cv_f1": 0.6288566348028489,
+    "cv_recall": 0.7926421404682273,
+    "cv_precision": 0.5213721349186275,
+    "cv_roc_auc_std": 0.011414950219885159,
+    "cv_pr_auc_std": 0.01615959419955949,
+    "cv_f1_std": 0.02202387881770539,
+    "cv_recall_std": 0.03520454145000876,
+    "cv_precision_std": 0.01764552750874648
+  },
+  "test_metrics": {
+    "accuracy": 0.7253371185237757,
+    "precision": 0.48973143759873616,
+    "recall": 0.8288770053475936,
+    "f1": 0.6156901688182721,
+    "roc_auc": 0.8449223694747992
+  },
+  "feature_importance": [
+    {
+      "feature": "cat__tenure_group_0-6 months",
+      "importance": 0.4836177703776251,
+      "coefficient": 0.4836177703776251,
+      "label": "Tenure band: 0-6 months"
+    },
+    {
+      "feature": "cont__tenure",
+      "importance": 0.4761701755595339,
+      "coefficient": -0.4761701755595339,
+      "label": "Tenure (months)"
+    },
+    {
+      "feature": "disc__contract_risk_score",
+      "importance": 0.3474366685625907,
+      "coefficient": 0.3474366685625907,
+      "label": "Contract risk score"
+    },
+    {
+      "feature": "cat__InternetService_Fiber optic",
+      "importance": 0.2894633893601126,
+      "coefficient": 0.2894633893601126,
+      "label": "Internet service type: Fiber optic"
+    },
+    {
+      "feature": "cat__InternetService_DSL",
+      "importance": 0.24325443341452324,
+      "coefficient": -0.24325443341452324,
+      "label": "Internet service type: DSL"
+    },
+    {
+      "feature": "cat__service_profile_Phone+Internet+Protection+Streaming",
+      "importance": 0.22425936833130952,
+      "coefficient": -0.22425936833130952,
+      "label": "Service profile: Phone+Internet+Protection+Streaming"
+    },
+    {
+      "feature": "cat__Contract_Two year",
+      "importance": 0.21844916466744946,
+      "coefficient": -0.21844916466744946,
+      "label": "Contract type: Two year"
+    },
+    {
+      "feature": "cat__tenure_group_25-48 months",
+      "importance": 0.21426018205689454,
+      "coefficient": -0.21426018205689454,
+      "label": "Tenure band: 25-48 months"
+    },
+    {
+      "feature": "cat__tenure_group_13-24 months",
+      "importance": 0.19599812506723813,
+      "coefficient": -0.19599812506723813,
+      "label": "Tenure band: 13-24 months"
+    },
+    {
+      "feature": "disc__billing_risk_score",
+      "importance": 0.17680720698755534,
+      "coefficient": 0.17680720698755534,
+      "label": "Billing risk score"
+    },
+    {
+      "feature": "cat__MultipleLines_No",
+      "importance": 0.1601816400803748,
+      "coefficient": -0.1601816400803748,
+      "label": "Multiple lines: No"
+    },
+    {
+      "feature": "cont__MonthlyCharges",
+      "importance": 0.15885854119959186,
+      "coefficient": 0.15885854119959186,
+      "label": "Monthly charges"
+    },
+    {
+      "feature": "disc__streaming_count",
+      "importance": 0.15721446373131667,
+      "coefficient": 0.15721446373131667,
+      "label": "Streaming add-ons (count)"
+    },
+    {
+      "feature": "cont__avg_monthly_spend",
+      "importance": 0.15442956687035045,
+      "coefficient": 0.15442956687035045,
+      "label": "Average monthly spend"
+    },
+    {
+      "feature": "disc__no_support_flag",
+      "importance": 0.1476256566955286,
+      "coefficient": 0.1476256566955286,
+      "label": "Internet without security/tech support"
+    },
+    {
+      "feature": "cat__Contract_One year",
+      "importance": 0.14511999218540222,
+      "coefficient": 0.14511999218540222,
+      "label": "Contract type: One year"
+    },
+    {
+      "feature": "disc__is_month_to_month",
+      "importance": 0.14492243639412342,
+      "coefficient": 0.14492243639412342,
+      "label": "Month-to-month contract"
+    },
+    {
+      "feature": "cat__OnlineSecurity_No",
+      "importance": 0.1016317421579676,
+      "coefficient": 0.1016317421579676,
+      "label": "Online security: No"
+    },
+    {
+      "feature": "cat__PhoneService_Yes",
+      "importance": 0.09784879162163007,
+      "coefficient": -0.09784879162163007,
+      "label": "Phone service: Yes"
+    },
+    {
+      "feature": "cat__service_profile_Internet+Streaming",
+      "importance": 0.09759156003130891,
+      "coefficient": 0.09759156003130891,
+      "label": "Service profile: Internet+Streaming"
+    },
+    {
+      "feature": "cat__Dependents_Yes",
+      "importance": 0.09757191806476995,
+      "coefficient": -0.09757191806476995,
+      "label": "Has dependents: Yes"
+    },
+    {
+      "feature": "cat__PhoneService_No",
+      "importance": 0.0950901954682329,
+      "coefficient": 0.0950901954682329,
+      "label": "Phone service: No"
+    },
+    {
+      "feature": "cat__MultipleLines_No phone service",
+      "importance": 0.0950901954682329,
+      "coefficient": 0.0950901954682329,
+      "label": "Multiple lines: No phone service"
+    },
+    {
+      "feature": "cat__Dependents_No",
+      "importance": 0.09481332191137225,
+      "coefficient": 0.09481332191137225,
+      "label": "Has dependents: No"
+    },
+    {
+      "feature": "cont__TotalCharges",
+      "importance": 0.09341385919148165,
+      "coefficient": -0.09341385919148165,
+      "label": "Total charges"
+    }
+  ]
+}

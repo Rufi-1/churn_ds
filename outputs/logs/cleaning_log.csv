@@ -1,0 +1,7 @@
+step,column,issue,rows_affected,action
+whitespace,TotalCharges,leading/trailing/duplicate whitespace,3,trimmed and collapsed spaces
+missing,TotalCharges,blank string,3,converted to NaN
+categories,SeniorCitizen,numeric 0/1 coding,1500,mapped 0/1 to No/Yes
+missing,TotalCharges,missing for tenure = 0 (not yet billed),3,set to 0.0 (logical rule)
+outliers,TotalCharges,values outside Tukey IQR fences,11,kept (genuine values); winsorised on training data in the model pipeline
+summary,-,1500 raw rows -> 1500 clean rows,0,rows removed in total

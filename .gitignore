@@ -1,0 +1,18 @@
+# environments / caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# secrets (none are required by this project)
+.env
+.streamlit/secrets.toml
+
+# local-only state
+outputs/prediction_history.csv
+
+# The full dataset is re-downloadable with `python run_pipeline.py seed`
+data/raw/telco_churn.csv

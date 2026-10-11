@@ -1,0 +1,37 @@
+driver,column,value,customers,mean_effect_pp
+Tenure / customer age,tenure_group,0-6 months,51,28.400873083112582
+Service mix,service_profile,Internet+Protection+Streaming,10,11.485827426523645
+Contract type,Contract,Month-to-month,131,10.819203433473644
+Tenure / customer age,tenure_group,7-12 months,31,8.285965646923753
+Tenure / customer age,tenure_group,13-24 months,34,7.275383340502172
+Payment & billing,PaymentMethod,Electronic check,84,6.46248363934108
+Household / demographics,SeniorCitizen,Yes,47,5.802607258315666
+Service mix,service_profile,Internet+Streaming,2,5.719515540776299
+Streaming services,StreamingTV,Yes,88,5.217214512172135
+Monthly price level,customer_value_segment,Premium,57,4.524532829735596
+Service mix,service_profile,Internet,4,3.771582676295218
+Internet service type,InternetService,Fiber optic,100,3.5066745317599954
+Service mix,service_profile,Phone+Internet,19,2.25175701790623
+Service mix,service_profile,Internet+Protection,5,2.137062739239869
+Security & tech support,TechSupport,No,120,1.905474693378229
+Service mix,service_profile,Phone+Internet+Protection,45,1.3384474972724894
+Payment & billing,PaymentMethod,Bank transfer (automatic),54,0.9985196218511025
+Service mix,service_profile,Phone+Internet+Streaming,21,0.39917681872758976
+Security & tech support,TechSupport,Yes,73,-0.048458330883095924
+Monthly price level,customer_value_segment,High,58,-0.12514197200103155
+Household / demographics,SeniorCitizen,No,203,-1.1250696386042216
+Service mix,service_profile,Phone,57,-1.2470889993869907
+Monthly price level,customer_value_segment,Low,62,-1.5464955226340795
+Payment & billing,PaymentMethod,Credit card (automatic),49,-2.3259585666511535
+Service mix,service_profile,Phone+Internet+Protection+Streaming,87,-2.413563133009978
+Security & tech support,TechSupport,No internet service,57,-2.511469256179817
+Internet service type,InternetService,No,57,-2.5588917387743604
+Monthly price level,customer_value_segment,Medium,73,-2.7640500388602223
+Streaming services,StreamingTV,No,105,-2.9055730220851173
+Streaming services,StreamingTV,No internet service,57,-3.0157840677966914
+Internet service type,InternetService,DSL,93,-3.186768396157101
+Tenure / customer age,tenure_group,25-48 months,54,-3.266436863005051
+Contract type,Contract,One year,55,-4.169288865774428
+Payment & billing,PaymentMethod,Mailed check,63,-4.759574642070492
+Contract type,Contract,Two year,64,-7.143110600587265
+Tenure / customer age,tenure_group,49+ months,80,-13.327097089178409

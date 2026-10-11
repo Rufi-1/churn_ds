@@ -1,0 +1,49 @@
+{
+  "threshold": 0.36,
+  "n": 300,
+  "positives": 80,
+  "accuracy": 0.6966666666666667,
+  "precision": 0.46153846153846156,
+  "recall": 0.825,
+  "f1": 0.5919282511210763,
+  "roc_auc": 0.8246022727272727,
+  "pr_auc": 0.6086809951737852,
+  "balanced_accuracy": 0.7375,
+  "specificity": 0.65,
+  "brier_score": 0.17079248275308545,
+  "confusion": {
+    "tn": 143,
+    "fp": 77,
+    "fn": 14,
+    "tp": 66
+  },
+  "classification_report": {
+    "Retained": {
+      "precision": 0.910828025477707,
+      "recall": 0.65,
+      "f1-score": 0.7586206896551724,
+      "support": 220.0
+    },
+    "Churned": {
+      "precision": 0.46153846153846156,
+      "recall": 0.825,
+      "f1-score": 0.5919282511210763,
+      "support": 80.0
+    },
+    "accuracy": 0.6966666666666667,
+    "macro avg": {
+      "precision": 0.6861832435080844,
+      "recall": 0.7375,
+      "f1-score": 0.6752744703881244,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 0.7910174750939082,
+      "recall": 0.6966666666666667,
+      "f1-score": 0.7141693727127468,
+      "support": 300.0
+    }
+  },
+  "evaluated_at": "2026-10-11T20:46:12",
+  "model": "Logistic Regression"
+}
